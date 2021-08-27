@@ -28,10 +28,6 @@
   "repositories": [
     {
       "type": "composer",
-      "url": "http://satis.cweyes.cn"
-    },
-    {
-      "type": "composer",
       "url": "https://mirrors.aliyun.com/composer/"
     }
   ]
