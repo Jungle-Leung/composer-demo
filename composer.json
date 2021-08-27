@@ -16,14 +16,7 @@
   "minimum-stability": "dev",
   "require": {
     "php": ">=7.1",
-    "swoft/framework": "~2.0.0",
-    "swoft/db": "~2.0.0",
-    "swoft/rpc-client": "~2.0.0",
-    "swoft/rpc-server": "~2.0.0",
-    "swoft/http-server": "~2.0.0",
-    "swoft/apollo": "~2.0.0",
-    "swoft/devtool": "~2.0.0",
-    "swoft/validator": "~2.0.0"
+    "swoft/framework": "~2.0.0"
   },
   "repositories": [
     {
