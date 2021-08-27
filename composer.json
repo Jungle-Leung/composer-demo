@@ -1,0 +1,13 @@
+{
+    "name": "root/swoft",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Jungle Leung",
+            "email": "875342392@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
