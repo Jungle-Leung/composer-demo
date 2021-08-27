@@ -1,13 +1,38 @@
 {
-    "name": "root/swoft",
-    "type": "library",
-    "license": "Apache-2.0",
-    "authors": [
-        {
-            "name": "Jungle Leung",
-            "email": "875342392@qq.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {}
+  "name": "jungle/composer-demo",
+  "type": "library",
+  "license": "Apache-2.0",
+  "autoload": {
+    "psr-4": {
+      "Demo\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Jungle Leung",
+      "email": "875342392@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.1",
+    "swoft/framework": "~2.0.0",
+    "swoft/db": "~2.0.0",
+    "swoft/rpc-client": "~2.0.0",
+    "swoft/rpc-server": "~2.0.0",
+    "swoft/http-server": "~2.0.0",
+    "swoft/apollo": "~2.0.0",
+    "swoft/devtool": "~2.0.0",
+    "swoft/validator": "~2.0.0"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://satis.cweyes.cn"
+    },
+    {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer/"
+    }
+  ]
 }
