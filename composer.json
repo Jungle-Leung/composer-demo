@@ -1,5 +1,5 @@
 {
-  "name": "jungle/composer-demo",
+  "name": "jungle-leung/composer-demo",
   "type": "library",
   "license": "Apache-2.0",
   "autoload": {
